@@ -32,13 +32,13 @@ const HeroBanner = () => {
                 )}
             >
                 <div>
-                <h1 className="absolute transition duration-100 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-40 text-white text-4xl md:text-8xl font-bold uppercase">Exquisite Jewelry</h1>
+                <h1 className="hidden md:block absolute transition duration-100 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-40 text-white text-4xl md:text-8xl font-bold uppercase">Unleash the Extraordinary</h1>
 
   <img src="/slide-11.jpeg" 
    className="aspect-[16/10] md:aspect-[25/10] object-cover" alt="Bracelets" />
-   <p style={{fontFamily:'Sacramento',fontSize:'40px'}} className="text-lg text-white absolute bottom-40 left-1/2 transform -translate-x-1/2">Unleash Your Radiance</p>
+   <p style={{fontFamily:'Sacramento',fontSize:'40px'}} className="hidden md:block text-lg text-white absolute bottom-40 left-1/2 transform -translate-x-1/2">Elevate your style with our exquisite collection</p>
 
-  <button className="absolute bottom-[40px] left-1/2 transform -translate-x-1/2 bg-white text-black/[0.9] text-xl md:text-xl font-medium uppercase px-8 py-4 rounded hover:opacity-90 cursor-pointer">Shop Now</button>
+  <button className="absolute bottom-[40px] left-1/2 transform -translate-x-1/2 bg-white text-black/[0.9] text-xl md:text-xl font-medium uppercase px-8 py-2 md:py-4 rounded hover:opacity-90 cursor-pointer">Shop Now</button>
   
 </div>
 
